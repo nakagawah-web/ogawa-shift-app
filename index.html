@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>おがわ歯科 シフト管理</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="app-header no-print">
+    <h1>おがわ歯科 シフト管理</h1>
+    <nav class="tabs" aria-label="画面の切り替え">
+      <button type="button" data-action="tab" data-tab="view">シフト表</button>
+      <button type="button" data-action="tab" data-tab="input">希望休・有給の入力</button>
+      <button type="button" data-action="tab" data-tab="admin">管理者</button>
+    </nav>
+  </header>
+  <main id="app"></main>
+  <div id="modal-root"></div>
+  <noscript>このアプリを使うには JavaScript を有効にしてください。</noscript>
+  <script src="core.js"></script>
+  <script src="ui.js"></script>
+</body>
+</html>
