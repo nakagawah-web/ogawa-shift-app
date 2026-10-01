@@ -133,7 +133,6 @@ details.warnings ul { margin: 6px 0 0; padding-left: 20px; columns: 2 360px; fon
 .shift-grid .c-date { position: sticky; left: 0; z-index: 1; background: #fff; min-width: 2.2em; font-weight: bold; }
 .shift-grid .c-dow { position: sticky; left: 2.2em; z-index: 1; background: #fff; min-width: 2em; }
 .shift-grid .c-note { min-width: 6em; max-width: 12em; overflow: hidden; text-overflow: ellipsis; font-size: 12px; text-align: left; }
-.shift-grid .c-name small { color: var(--muted); font-weight: normal; margin-left: 1px; }
 .shift-grid .grp { font-size: 12px; }
 .shift-grid .g-0 { background: #e3eefc; }
 .shift-grid .g-1 { background: #e2f3ea; }

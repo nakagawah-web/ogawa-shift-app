@@ -220,8 +220,7 @@
     h += '<th rowspan="2" class="c-count">午前の人数</th><th rowspan="2" class="c-count">午後の人数</th></tr><tr class="names">';
     for (const g of groups) {
       for (const s of g.list) {
-        h += `<th class="c-name ${roleCls(g.role)}" title="${esc(`${s.name}（${roleText(s)}・${s.employment === 'full' ? '常勤' : 'パート'}）`)}">` +
-          `${esc(s.name)}${s.employment === 'full' ? '' : '<small>パ</small>'}</th>`;
+        h += `<th class="c-name ${roleCls(g.role)}" title="${esc(`${s.name}（${roleText(s)}）`)}">${esc(s.name)}</th>`;
       }
     }
     h += '</tr></thead><tbody>';
